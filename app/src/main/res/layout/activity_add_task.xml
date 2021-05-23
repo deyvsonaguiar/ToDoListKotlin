@@ -7,10 +7,10 @@
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="Criar tarefa"
+        app:title="@string/title_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:navigationIcon="@drawable/ic_avigate"/>
+        app:navigationIcon="@drawable/ic_navigate"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide_start"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:hint="Título">
+        android:hint="@string/title_titulo">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:inputType="text"
@@ -52,7 +52,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:hint="Data"
+        android:hint="@string/title_data"
         app:startIconDrawable="@drawable/ic_calendar">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:hint="Hora"
+        android:hint="@string/title_hora"
         app:startIconDrawable="@drawable/ic_time">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -87,7 +87,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_new_task"
         android:layout_marginBottom="8dp"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:text="Cancelar"
+        android:text="@string/title_cancelar"
         android:textAllCaps="false"/>
 
     <com.google.android.material.button.MaterialButton
@@ -99,7 +99,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="16dp"
         style="@style/Widget.MaterialComponents.Button"
-        android:text="Criar tarefa"
+        android:text="@string/title_criar_tarefa"
         android:textAllCaps="false"/>
 
 

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">To Do List</string>
+    <string name="title_toolbar">Criar tarefa</string>
+    <string name="title_cancelar">Cancelar</string>
+    <string name="title_criar_tarefa">Criar tarefa</string>
+    <string name="title_titulo">Título</string>
+    <string name="title_data">Data</string>
+    <string name="title_hora">Hora</string>
 </resources>
