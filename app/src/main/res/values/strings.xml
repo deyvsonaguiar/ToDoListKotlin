@@ -6,4 +6,6 @@
     <string name="title_titulo">Título</string>
     <string name="title_data">Data</string>
     <string name="title_hora">Hora</string>
+    <string name="title_tarefas">Tarefas</string>
+    <string name="title_fab_nova_tarefa">Nova tarefa</string>
 </resources>
