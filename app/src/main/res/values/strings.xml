@@ -10,4 +10,5 @@
     <string name="title_fab_nova_tarefa">Nova tarefa</string>
     <string name="title_editar">Editar</string>
     <string name="deletar">Deletar</string>
+    <string name="title_no_tasks">Ops! Você não possui\nnenhuma tarefa!</string>
 </resources>

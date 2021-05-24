@@ -3,7 +3,7 @@ package com.deyvsonaguiar.todolist.datasource
 import com.deyvsonaguiar.todolist.model.Task
 
 object TaskDataSource {
-    private var list = arrayListOf<Task>()
+    private val list = arrayListOf<Task>()
 
     fun getList() = list.toList()
 
