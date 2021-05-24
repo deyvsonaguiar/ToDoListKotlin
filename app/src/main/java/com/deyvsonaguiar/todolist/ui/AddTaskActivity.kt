@@ -3,6 +3,7 @@ package com.deyvsonaguiar.todolist.ui
 import android.app.Activity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.deyvsonaguiar.todolist.R
 import com.deyvsonaguiar.todolist.databinding.ActivityAddTaskBinding
 import com.deyvsonaguiar.todolist.datasource.TaskDataSource
 import com.deyvsonaguiar.todolist.extensions.format
@@ -33,6 +34,7 @@ class AddTaskActivity: AppCompatActivity() {
         }
 
         insertListeners()
+        initToolbar()
     }
 
     private fun insertListeners() {
@@ -78,6 +80,12 @@ class AddTaskActivity: AppCompatActivity() {
             setResult(Activity.RESULT_OK)
             finish()
         }
+    }
+
+    private fun initToolbar() {
+        val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     companion object {
